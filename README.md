@@ -2,7 +2,7 @@
 
 Simple little CLI to get my feet wet with Go.
 
-Run `go install tobias.go` and then `tobias <filepath_of_text_file` to get the output.
+Run `go install tobias.go` and then `tobias <filepath_of_text_file>` to get the output.
 
 Uses only standard libraries to build:
 - `fmt`
