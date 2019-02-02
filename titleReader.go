@@ -9,6 +9,9 @@ import (
 
 func main() {
 
+	if len(os.Args) < 2 {
+		panic("ERROR: no path argument given")
+	}
 	args := os.Args[1:]
 	filepath := args[0]
 	file, err := os.Open(filepath)
